@@ -12,12 +12,12 @@ const timesData = [
         cor: "#000000",
         jogadores: [
             { nome: "Hugo Souza", pos: "GOL", num: 1, forca: 84 },
-            { nome: "Matheusinho", pos: "LAT", num: 2, forca: 79 }, // Alterado
+            { nome: "Matheusinho", pos: "LAT", num: 2, forca: 79 },
             { nome: "André Ramalho", pos: "ZAG", num: 5, forca: 82 },
             { nome: "Gustavo Henrique", pos: "ZAG", num: 4, forca: 78 },
             { nome: "Matheus Bidu", pos: "LAT", num: 21, forca: 77 },
             { nome: "José Martínez", pos: "MEI", num: 70, forca: 80 },
-            { nome: "Breno Bidon", pos: "MEI", num: 7, forca: 77 }, // Alterado
+            { nome: "Breno Bidon", pos: "MEI", num: 7, forca: 77 },
             { nome: "R. Garro", pos: "MEI", num: 10, forca: 88 },
             { nome: "Memphis Depay", pos: "ATA", num: 94, forca: 91 },
             { nome: "Yuri Alberto", pos: "ATA", num: 9, forca: 85 },
@@ -29,10 +29,6 @@ const timesData = [
             { nome: "Romero", pos: "ATA", num: 11, forca: 78 }
         ]
     },
-    // ... Mantenha o restante dos times (Palmeiras, SPFC, etc) igual ao anterior ...
-    // Se quiser, posso mandar o arquivo data.js inteiro de novo, mas se você já salvou, só altere o Corinthians.
-    // Para garantir que funcione, vou assumir que você tem o restante dos dados.
-    // Cole aqui o restante dos times do JSON anterior...
     {
         id: "palmeiras",
         nome: "Palmeiras",
