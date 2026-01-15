@@ -1,0 +1,16 @@
+Botafogo-SP - Estádio: Santa Cruz - Capacidade: 29.292
+Capivariano - Estádio: Arena Capivari - Capacidade: 14.651
+Corinthians - Estádio: Neo Química Arena - Capacidade: 48.905
+Guarani - Estádio: Brinco de Ouro - Capacidade: 29.130
+Mirassol - Estádio: Maião - Capacidade: 18.000
+Noroeste - Estádio: Alfredo de Castilho - Capacidade: 18.866
+Novorizontino - Estádio: Jorjão - Capacidade: 12.398
+Palmeiras - Estádio: Allianz Parque - Capacidade: 43.713
+Ponte Preta - Estádio: Misés Lucarelli - Capacidade: 19.728
+Portuguesa - Estádio: Estádio do Canindé - Capacidade: 21.004
+Primavera - Estádio: Gigante da Vila Industrial - Capacidade: 8.020
+Red Bull Bragantino - Estádio: Nabi Abi Chedid - Capacidade: 17.128
+Santos - Estádio: Vila Belmiro - Capacidade: 16.795
+São Bernardo - Estádio: Primeiro de Maio - Capacidade: 15.759
+São Paulo - Estádio: MorumBIS - Capacidade: 72.039
+Velo Clube - Estádio: Benitão - Capacidade: 8.136

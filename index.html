@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampa Soccer Manager 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="screen-selection" class="screen active">
+        <h1>Sampa Soccer Manager 26</h1>
+        <p>Escolha seu time para o Paulistão</p>
+        <div id="team-grid" class="grid-teams"></div>
+    </section>
+
+    <section id="screen-manager" class="screen hidden">
+        <header>
+            <div class="header-info">
+                <h2 id="team-name">Nome do Time</h2>
+                <div class="status-box">Moral: <span id="team-moral">50</span></div>
+            </div>
+            <div class="round-info">
+                <span>Rodada <span id="current-round">1</span></span>
+            </div>
+        </header>
+
+        <div id="news-ticker" class="news-ticker">
+            <p id="news-text">Bem-vindo ao Paulistão 2026!</p>
+        </div>
+
+        <main class="manager-layout">
+            <div class="panel squad-panel">
+                <h3>Escalação Titular (11)</h3>
+                <p class="subtitle">Selecione os jogadores</p>
+                <div id="players-list" class="players-list"></div>
+                <div class="squad-stats">
+                    <div class="stat">ATA: <span id="stat-att">0</span></div>
+                    <div class="stat">DEF: <span id="stat-def">0</span></div>
+                    <div id="lineup-warning" class="warning">Escolha 11 jogadores!</div>
+                </div>
+                <button id="btn-play" class="btn-action" disabled>JOGAR PARTIDA</button>
+            </div>
+
+            <div class="panel info-panel">
+                <div class="next-match-card">
+                    </div>
+                <div class="table-container">
+                    <h3>Classificação Geral</h3>
+                    <table id="league-table">
+                        <thead>
+                            <tr><th>#</th><th>Time</th><th>P</th><th>V</th><th>SG</th></tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section id="screen-simulation" class="screen hidden">
+        <div class="match-live-board">
+            <h2>Em Andamento...</h2>
+            <div class="timer-box" id="match-timer">00:00</div>
+            
+            <div class="live-score">
+                <span id="live-score-home">0</span>
+                <span style="font-size:0.5em; color:#888;">X</span>
+                <span id="live-score-away">0</span>
+            </div>
+
+            <div id="live-narrative" class="narrative-log">
+                A partida vai começar!
+            </div>
+        </div>
+    </section>
+
+    <section id="screen-result" class="screen hidden">
+        <div class="result-modal">
+            <h2>Fim de Jogo</h2>
+            <div class="scoreboard">
+                <span id="score-my">0</span> x <span id="score-enemy">0</span>
+            </div>
+            <p id="match-summary">Resumo...</p>
+            <button id="btn-next-round" class="btn-action">Continuar</button>
+        </div>
+    </section>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
